@@ -6,6 +6,38 @@
         <div class="block">
             <div class="block-header">
                 <h3 class="block-title">
+                    <b>Lista de Pedidos</b>  <small>Use a Busca!!</small>
+                </h3>                                    
+            </div>
+            <div class="block-content block-content-full">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Ano</th>
+                            <th scope="col">Atendimento do Pedido</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Investimentos para Leigos: Começando do Zero</th>
+                            <td>Cursos</td>
+                            <td>2020</td>
+                            <td>16/08/2020</td>
+
+                        </tr>                                            
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="block">
+            <div class="block-header">
+                <h3 class="block-title">
                     <b>Pedidos Atendidos</b>  <small>Use a Busca!!</small>
                 </h3>                                    
             </div>

@@ -18,6 +18,16 @@ Route::get('/', function () {
 });
 //sistema rotas
 Route::get('/sistema', 'SistemaController@indexSistema')->name('index.sistema');
+
+//sistema rotas Filmes
+Route::get('/sistema/filmes', 'CoreController@indexFilme')->name('index.filmes');
+Route::post('/adicionarFilmes', 'CoreController@adicionarFilmes')->name('cadastar.filmes');
+
+//sistema rotas Curso
+Route::get('/sistema/cursos', 'CoreController@indexCurso')->name('index.curso');
+Route::post('/adicionarCurso', 'CoreController@adicionarCursos')->name('cadastar.curso');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

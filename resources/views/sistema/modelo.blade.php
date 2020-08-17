@@ -30,11 +30,11 @@
                     <div class="row " data-toggle="appear">
                         <!-- Row #5 -->
                         <div class="col-6 col-md-4 col-xl-2">
-                            <a class="block block-link-shadow text-center" href="be_pages_generic_inbox.html">
+                            <a class="block block-link-shadow text-center" href="{{url('/sistema/filmes')}}">
                                 <div class="block-content ribbon ribbon-bookmark ribbon-success ribbon-left">
                                     <div class="ribbon-box">15</div>
                                     <p class="mt-5">
-                                        <i class="si si-envelope-letter fa-3x"></i>
+                                        <i class="fa-file-movie-o fa fa-3x"></i>
                                     </p>
                                     <p class="font-w600">Filmes</p>
                                 </div>
@@ -45,19 +45,19 @@
                                 <div class="block-content ribbon ribbon-bookmark ribbon-success ribbon-left">
                                     <div class="ribbon-box">15</div>
                                     <p class="mt-5">
-                                        <i class="si si-envelope-letter fa-3x"></i>
+                                        <i class="si si-film fa-3x"></i>
                                     </p>
                                     <p class="font-w600">Serie de TV</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-xl-2">
-                            <a class="block block-link-shadow text-center" href="be_pages_generic_inbox.html">
+                            <a class="block block-link-shadow text-center" href="{{url('/sistema/cursos')}}">
                                 <div class="block-content ribbon ribbon-bookmark ribbon-success ribbon-left">
                                     <div class="ribbon-box">15</div>
                                     
                                     <p class="mt-5">
-                                        <i class="si si-envelope-letter fa-3x"></i>
+                                        <i class="si si-book-open fa-3x"></i>
                                     </p>
                                     <p class="font-w600">Cursos</p>
                                 </div>
@@ -68,7 +68,7 @@
                                 <div class="block-content ribbon ribbon-bookmark ribbon-success ribbon-left">
                                     <div class="ribbon-box">15</div>
                                     <p class="mt-5">
-                                        <i class="si si-envelope-letter fa-3x"></i>
+                                        <i class="si si-music-tone-alt fa-3x"></i>
                                     </p>
                                     <p class="font-w600">Musicas</p>
                                 </div>
@@ -79,7 +79,7 @@
                                 <div class="block-content ribbon ribbon-bookmark ribbon-success ribbon-left">
                                     <div class="ribbon-box">15</div>
                                     <p class="mt-5">
-                                        <i class="si si-envelope-letter fa-3x"></i>
+                                        <i class="fa-file-pdf-o fa fa-3x"></i>
                                     </p>
                                     <p class="font-w600">Programas</p>
                                 </div>
@@ -90,7 +90,7 @@
                                 <div class="block-content ribbon ribbon-bookmark ribbon-success ribbon-left">
                                     <div class="ribbon-box">15</div>
                                     <p class="mt-5">
-                                        <i class="si si-envelope-letter fa-3x"></i>
+                                        <i class="fa-gears fa fa-3x"></i>
                                     </p>
                                     <p class="font-w600">Configuração</p>
                                 </div>
@@ -100,6 +100,8 @@
                     </div>
 
                    @yield('sistemaIndex')
+                   @yield('indexFilmes')
+                   @yield('indexCurso')
 
                     <!-- Footer -->
                     <footer id="page-footer" >
